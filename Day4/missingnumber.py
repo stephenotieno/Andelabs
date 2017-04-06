@@ -29,7 +29,7 @@ def main():
 	check = MissingNumbers(array1,array2)
 	num_miss = check.find_missing(array1,array2)
 
-	list_miss_num.append(check)
+	list_miss_num.append(num_miss)
 
 	return list_miss_num
 
