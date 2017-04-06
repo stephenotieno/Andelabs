@@ -26,12 +26,12 @@ def main():
 
 	list_miss_num = []
 
-	check = MissingNumbers("array1","array2")
+	check = MissingNumbers(array1,array2)
 	num_miss = check.find_missing(array1,array2)
 
 	list_miss_num.append(check)
 
-	print list_miss_num
+	return list_miss_num
 
 
 

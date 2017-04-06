@@ -1,6 +1,6 @@
 class BinarySearch(object):
 
-	def __init__(sel, a ,b):
+	def __init__(self, a ,b):
 		self.a = a
 		self.b = b
 		
