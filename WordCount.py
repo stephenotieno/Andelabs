@@ -8,4 +8,3 @@ def words(String):
         else:
             word_count[word] = 1
     return word_count
-        
